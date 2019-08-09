@@ -19,6 +19,9 @@ function handleSub(){
 
 function render(){
   msgEl.textContent = sum;
+  if(sum < 0){
+    msgEl.style.color = "red";
+  }
 };
 
 render();
